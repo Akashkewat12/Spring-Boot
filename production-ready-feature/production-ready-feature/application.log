@@ -1,0 +1,30 @@
+2025-04-11T03:08:04.909+05:30  INFO 8080 --- [production-ready-feature] [main] p.ProductionReadyFeatureApplicationTests : Starting ProductionReadyFeatureApplicationTests using Java 21.0.5 with PID 8080 (started by akash in C:\Users\akash\Downloads\production-ready-feature\production-ready-feature)
+2025-04-11T03:08:04.912+05:30  INFO 8080 --- [production-ready-feature] [main] p.ProductionReadyFeatureApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-04-11T03:08:05.787+05:30  INFO 8080 --- [production-ready-feature] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11T03:08:05.872+05:30  INFO 8080 --- [production-ready-feature] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2025-04-11T03:08:06.641+05:30  INFO 8080 --- [production-ready-feature] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11T03:08:06.719+05:30  INFO 8080 --- [production-ready-feature] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-11T03:08:06.777+05:30  INFO 8080 --- [production-ready-feature] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-11T03:08:06.929+05:30  INFO 8080 --- [production-ready-feature] [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2025-04-11T03:08:07.242+05:30  INFO 8080 --- [production-ready-feature] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11T03:08:07.289+05:30  INFO 8080 --- [production-ready-feature] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-11T03:08:07.516+05:30  INFO 8080 --- [production-ready-feature] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2804b13f
+2025-04-11T03:08:07.520+05:30  INFO 8080 --- [production-ready-feature] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-11T03:08:07.609+05:30  INFO 8080 --- [production-ready-feature] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11T03:08:07.900+05:30  INFO 8080 --- [production-ready-feature] [main] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.spring.production_ready_feature.entities.PostEntity
+2025-04-11T03:08:08.734+05:30  INFO 8080 --- [production-ready-feature] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11T03:08:08.972+05:30  INFO 8080 --- [production-ready-feature] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11T03:08:09.772+05:30  WARN 8080 --- [production-ready-feature] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11T03:08:10.277+05:30  INFO 8080 --- [production-ready-feature] [main] p.ProductionReadyFeatureApplicationTests : Started ProductionReadyFeatureApplicationTests in 5.824 seconds (process running for 7.212)
+2025-04-11T03:08:10.808+05:30 TRACE 8080 --- [production-ready-feature] [main] c.s.p.clients.impl.EmployeeClientImpl    : trying to create emp with information  :
+2025-04-11T03:08:10.947+05:30 ERROR 8080 --- [production-ready-feature] [main] c.s.p.clients.impl.EmployeeClientImpl    : exception occurred during creation of emp 
+2025-04-11T03:08:10.982+05:30  INFO 8080 --- [production-ready-feature] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11T03:08:10.987+05:30  INFO 8080 --- [production-ready-feature] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-11T03:08:10.995+05:30  INFO 8080 --- [production-ready-feature] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
